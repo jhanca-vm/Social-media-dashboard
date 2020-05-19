@@ -11,3 +11,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	color: hsl(230, 17%, 14%);
 }
+
+.container {
+	max-width: 1440px;
+	padding: 0 2.5em;
+}
