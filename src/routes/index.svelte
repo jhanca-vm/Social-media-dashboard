@@ -1,5 +1,6 @@
 <script>
 	import Header from '../components/Header.svelte';
+	import Cards from '../components/Cards.svelte';
 </script>
 
 <svelte:head>
@@ -7,3 +8,4 @@
 </svelte:head>
 
 <Header />
+<Cards />

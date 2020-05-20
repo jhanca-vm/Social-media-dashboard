@@ -3,15 +3,17 @@
     display: grid;
     grid-template-columns: 1fr 140px;
     background-color: hsl(225, 100%, 98%);
-    padding-bottom: 130px;
+    padding-top: 30px;
+    padding-bottom: 160px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     box-shadow: 0px 1px 3px 3px rgba(245,245,245, .9);
+    position: relative;
+    z-index: -2;
   }
 
   h1 {
     margin: 0;
-    padding-top: 25px;
   }
 
   p {
