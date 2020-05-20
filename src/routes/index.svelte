@@ -1,6 +1,8 @@
 <script>
 	import Header from '../components/Header.svelte';
 	import Cards from '../components/Cards.svelte';
+	import Overview from '../components/Overview.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -9,3 +11,5 @@
 
 <Header />
 <Cards />
+<Overview />
+<Footer />
