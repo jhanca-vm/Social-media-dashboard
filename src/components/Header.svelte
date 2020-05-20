@@ -1,12 +1,10 @@
 <script>
-  let styles = { darkMode: true };
-
+  let styles = { lightMode: false };
+  
   function toggle() {
     styles.darkMode = !styles.darkMode;
-    window.document.body.classList.toggle('dark-mode');
+    window.document.body.classList.toggle('light-mode');
   };
-
-  toggle();
 </script>
 
 <style>
