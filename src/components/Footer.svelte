@@ -16,8 +16,8 @@
 </style>
 
 <footer class="container">
-  <div class="attribution">
+  <p class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/jhanca-vm">Jhan Viloria</a>.
-  </div>
+  </p>
 </footer>

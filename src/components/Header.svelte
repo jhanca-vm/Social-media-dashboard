@@ -1,15 +1,24 @@
+<script>
+  let styles = { darkMode: true };
+
+  function toggle() {
+    styles.darkMode = !styles.darkMode;
+    window.document.body.classList.toggle('dark-mode');
+  };
+
+  toggle();
+</script>
+
 <style>
   header {
     display: grid;
     grid-template-columns: 1fr 140px;
-    background-color: hsl(225, 100%, 98%);
-    padding-top: 30px;
+    background-color: var(--top-bg);
+    padding-top: 35px;
     padding-bottom: 160px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    box-shadow: 0px 1px 3px 3px rgba(245,245,245, .9);
-    position: relative;
-    z-index: -2;
+    box-shadow: var(--shadow);
   }
 
   h1 {
@@ -29,26 +38,25 @@
     align-items: center;
     justify-content: space-between;
   }
-  .toggle input {
-    display: none;
-  }
-  .toggle label {
+  
+  label {
     height: 25px;
     width: 50px;
-    background-color: hsl(230, 22%, 74%);
+    background: var(--toggle);
     box-sizing: border-box;
     border-radius: 20px;
     padding: 3px 3.5px;
     cursor: pointer;
   }
-  .toggle label::before {
+  label::before {
     content: "";
     display: block;
     width: 19px;
     height: 19px;
-    background-color: hsl(225, 100%, 98%);
+    background-color: var(--top-bg);
     border-radius: 50%;
-    transform: translateX(24px);
+    transform: var(--transform);
+    transition: .3s;
   }
 
   @media screen and (max-width: 768px) {
@@ -59,7 +67,7 @@
     .toggle {
       margin-top: 10px;
       padding-top: 10px;
-      border-top: 1px solid hsl(230, 22%, 74%);
+      border-top: var(--border-top);
     }
   }
 </style>
@@ -71,7 +79,6 @@
   </div>
   <div class="toggle">
     <p>Dark Mode</p>
-    <input type="checkbox">
-    <label for="checkbox"></label>
+    <label on:click={toggle}></label>
   </div>
 </header>

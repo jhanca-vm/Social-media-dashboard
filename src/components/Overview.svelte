@@ -3,16 +3,14 @@
 </script>
 
 <style>
-  h1, h3 {
-    color: hsl(228, 12%, 44%);
-  }
-
   h1 {
     font-size: 25px;
+    color: var(--text-tl);
   }
 
   h3 {
     font-size: 16px;
+    color: var(--text);
   }
 
   section {
@@ -29,7 +27,7 @@
   }
 
   .items {
-    background-color: hsl(227, 47%, 96%);
+    background-color: var(--card);
     border-radius: 5px;
     padding: 15px 30px;
     cursor: pointer;
@@ -53,7 +51,7 @@
   }
 
   .items:hover {
-    background-color: hsl(227, 47%, 91%);
+    background-color: var(--hover);
   }
 
   .likes-fb p, .likes-yt p, .total-views p {

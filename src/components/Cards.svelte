@@ -8,6 +8,8 @@
     grid-template-columns: repeat(4, 1fr);
     column-gap: 2.5em;
     text-align: center;
+    position: relative;
+    z-index: 1;
   }
 
  .card {
@@ -15,13 +17,13 @@
    flex-direction: column;
    align-items: center;
    padding: 25px 0 15px;
-   background-color: hsl(227, 47%, 96%);
+   background-color: var(--card);
    border-radius: 5px;
    margin-top: -125px;
    cursor: pointer;
  }
  .card:hover {
-   background-color: hsl(227, 47%, 91%);
+   background-color: var(--hover);
  }
 
  .red-social {

@@ -4,12 +4,6 @@ body {
 	margin: 0;
 	font-family: 'Inter', sans-serif;
 	font-size: 14px;
-	background-color: hsl(0, 0%, 100%);
-	color: hsl(228, 12%, 44%);
-}
-
-h1, h2, h3, h4, h5, h6 {
-	color: hsl(230, 17%, 14%);
 }
 
 .container {
