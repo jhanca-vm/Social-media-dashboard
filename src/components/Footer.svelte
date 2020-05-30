@@ -3,6 +3,7 @@
     height: 50px;
     display: flex;
     align-items: center;
+    margin: 0 auto;
   }
 
   a {

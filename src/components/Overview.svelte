@@ -16,6 +16,7 @@
   section {
     padding-top: 32px;
     padding-bottom: 40px;
+    margin: 0 auto;
   }
 
   .data {

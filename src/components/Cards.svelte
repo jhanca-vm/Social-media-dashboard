@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 2.5em;
+    margin: 0 auto;
     text-align: center;
     position: relative;
     z-index: 1;

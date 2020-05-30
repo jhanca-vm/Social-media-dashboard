@@ -17,6 +17,7 @@
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     box-shadow: var(--shadow);
+    margin: 0 auto;
   }
 
   h1 {
